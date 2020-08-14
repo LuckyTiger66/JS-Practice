@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS 學徒第 45,46 關</title>
+    <link rel="shortcut icon" href="favicon.ico" />
+  </head>
+  <body>
+    <h2>45 關問題一: 轉址到對應網站</h2>
+    <button class="google"><a target="_blank">連到 Google</a></button>
+    <button class="yahoo">連到 Yahoo</button>
+
+    <h2>46 關問題一: 抓取 data-id 的值後進行轉址</h2>
+    <button id="google" data-id="Tom">Tom 推薦六角學院</button>
+    <button id="yahoo" data-id="John">John 推薦六角學院</button>
+
+    <h2>46 關問題二: 取出 recommend 的值</h2>
+    <h3> recommend 的值:  <span></span></h3>
+    
+    <h3>筆記心得</h3>
+    <ul>
+      <li><code>e.target.dataset.id</code> 對應到 HTML 的 data-id </li>
+      <li><code></code>split("=")[1]</code> 從 = 切分兩堆 ，等號前[0]；等號後[1]</li>
+      <li>放 codepen 上面會有問題，放到 githubpage 上面來</li>
+    </ul>
+
+    <script src="4546.js"></script>
+  </body>
+</html>
